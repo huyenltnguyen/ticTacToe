@@ -1,0 +1,130 @@
+/* MODAL */
+#myModal {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+#myModal span {
+	font-size: 20px;
+	line-height: 42px
+}
+
+#xSymbol, #oSymbol {
+	margin: 0 15px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+#xSymbol {
+	color: #e97a2e;
+}
+
+#oSymbol {
+	color: #fec842;
+}
+
+
+/* STATUS */
+#status {
+	width: 312px;
+	height: 60px;
+	margin: 30px auto;
+	padding: 17px 0;
+	font-family: 'Raleway', sans-serif;
+	vertical-align: middle;
+	color: #fec842;
+}
+
+#status i {
+	margin-right: 15px;
+}
+
+
+#humanScore, #computerScore {
+	display: inline-block;
+	margin: 0 20px;
+	width: 20%;
+}
+
+
+#reset {
+	display: inline-block;
+	border: 2px solid #fec842;
+	border-radius: 3px;
+	height: 36px;
+	width: 86px;	
+	color: #fec842;
+	background: none;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+#reset:hover {
+	cursor: pointer;
+	background-color: #e97a2e;
+}
+
+
+#gameState {
+	margin: 20px 0;
+	text-align: center;
+
+}
+
+/* BOARD */
+
+table {	
+	width: 372px; /* 100px * 3 + 2px * 6 */
+	text-align: center;
+	margin: 40px auto;
+}
+
+
+td {
+	width: 120px;
+	height: 120px;
+	border: 5px solid #9c9d47;
+	font-size: 50px;
+	cursor: pointer;
+}
+
+.claimed {
+	transform: scale(1.5);
+	transition: all 0.3s;
+}
+
+.top1 {
+	border-left: none;
+	border-top: none;
+}
+
+.top2 {
+	border-top: none;	
+}
+
+.top3 {
+	border-top: none;
+	border-right: none;
+}
+
+.mid1 {
+	border-left: none;
+}
+
+.mid3 {
+	border-right: none;
+}
+
+.bottom1 {
+	border-left: none;
+	border-bottom: none;
+}
+
+.bottom2 {
+	border-bottom: none;
+}
+
+.bottom3 {
+	border-bottom: none;
+	border-right: none;
+}

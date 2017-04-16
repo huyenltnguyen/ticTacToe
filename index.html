@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="$1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>	
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="ticTacToe.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+	<title>Tic Tac Toe</title>
+
+</head>
+<body style="background-color: #834e71">
+	<div class="container">
+		<div class="row" id="status">
+			<h3 id="humanScore"></h3>
+			<h3 id="computerScore"></h3>
+			<button id="reset">Reset</button>
+					
+			<h3 id="gameState"></h3>
+		</div>
+
+		<div class="row">
+			<table>
+				<tr>
+					<td id="0" class="top1"></td>
+					<td id="1" class="top2"></td>
+					<td id="2" class="top3"></td>
+				</tr>
+
+				<tr>
+					<td id="3" class="mid1"></td>
+					<td id="4"></td>
+					<td id="5" class="mid3"></td>
+				</tr>
+
+				<tr>
+					<td id="6" class="bottom1"></td>
+					<td id="7" class="bottom2"></td>
+					<td id="8" class="bottom3"></td>
+				</tr>
+			</table>	
+		</div>
+	</div>
+
+
+	<!-- Modal -->
+	<div id="myModal" class="modal fade" role="dialog"  data-backdrop="static" data-keyboard="false">
+	  <div class="modal-dialog">
+
+	    <!-- Modal content-->
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h4 class="modal-title">Choose your symbol</h4>
+	      </div>
+	      <div class="modal-body">
+	        <p><i class="fa fa-times fa-4x" id="xSymbol"></i> <span>OR</span> <i class="fa fa-circle fa-4x" id="oSymbol"></i></p>
+	      </div>
+	      
+	    </div>
+
+	  </div>
+	</div>	
+		
+
+</body>
+</html>
